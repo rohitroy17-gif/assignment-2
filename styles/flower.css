@@ -70,6 +70,10 @@ nav li a{
     width: 1140px;
     height: 1187px;
 }
+.plant-h{
+    width: 1140px;
+    height: 138px;
+}
 .plants-head{
     font-size: 50px;
     text-align: center;
@@ -81,4 +85,113 @@ nav li a{
     text-align: center;
     padding-left: 100px;
     margin-top: -70px;
+}
+.card{
+    width: 270px;
+    height: 484px;
+}
+.p-1{
+    font-size: 22px;
+    font-family: "inter",serif;
+    padding-left: 60px;  
+}
+.p-2{
+    font-size: 22px;
+    font-family: "inter",serif;
+    padding-left: 80px;
+}
+.btn{
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+}
+.card-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.lover{
+    width: 1140px;
+    height: 597px;
+    margin-top: 100px;
+}
+.badge{
+    max-width: 286px;
+    height: 286px;
+}
+.p-3{
+    font-size: 50px;
+    font-family: "noto serif",serif;
+    padding-left: 12px;
+}
+div ul li{
+    font-size: 22px;
+    font-family: "inter",serif;
+    font-weight: normal;
+    width: 540px;
+    height: 108px;
+}
+.flower-lover{
+    width: 540px;
+    height: 521px;
+    padding-left: 40px;
+}
+.plant-flower-lover{
+     width: 1140px;
+    height: 597px;
+    display: flex;
+}
+.badge-item{
+    padding-left: 360px;
+    margin-top: -730px;
+}
+.deals-h{
+    width: 1140px;
+    height: 138px;
+}
+.deals-head{
+    font-size: 50px;
+    text-align: center;
+    font-family: "noto serif",serif;
+}
+.deals-text{
+    width: 888px;
+    height: 54px;
+    text-align: center;
+    padding-left: 100px;
+    margin-top: -70px;
+}
+.deal-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 367px;
+    height: 423px;
+}
+.btn-2{
+    width: 367px;
+    height: 206px;
+    color: white;
+    background-image: url('../assets/deal-bloom.png');
+    border-radius: 14px;
+    border: none;
+}
+.color-2{
+    color: white;
+}
+.btn-3{
+    width: 367px;
+    height: 206px;
+    color: white;
+    background-image: url('../assets/deal-ana.png');
+    border-radius: 14px;
+    margin-top: -210px;
+    border: none;
+}
+.btn-2 p{
+    font-family: "noto serif",serif;
+    font-weight: 20px;
+}
+.btn-3 p{
+    font-family: "noto serif",serif;
+    font-weight: 20px;
 }
