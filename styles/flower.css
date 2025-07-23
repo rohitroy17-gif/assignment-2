@@ -1,0 +1,84 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+}
+header{
+    max-width: 1140px;
+}
+nav{
+    max-width: 1140px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav ul{
+    display: flex;
+    gap:15px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+     text-decoration: none;
+     color: #252432;
+}
+.list-item{
+    color: #8987A1;
+}
+.banner{
+    width: 1140px;
+    height: 461px;
+}
+.ban-head{
+    width: 570px;
+    height: 178px;
+    font-size: 65px;
+    font-family: "noto serif",serif;
+}
+.color{
+    color: #E95A08;
+}
+.flower{
+    padding-top: 110px;
+}
+.ban-p{
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    width: 570px;
+    height: 108px;
+    margin-top: -80px;
+}
+.ban-text{
+    padding-left: -10px;
+    padding-top: 150px;
+    width: 570px;
+    height: 299px;
+}
+.ban-item{
+    display: flex;
+}
+.plants{
+    width: 1140px;
+    height: 1187px;
+}
+.plants-head{
+    font-size: 50px;
+    text-align: center;
+    font-family: "noto serif",serif;
+}
+.plant-text{
+    width: 888px;
+    height: 54px;
+    text-align: center;
+    padding-left: 100px;
+    margin-top: -70px;
+}
