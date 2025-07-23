@@ -161,37 +161,3 @@ div ul li{
     padding-left: 100px;
     margin-top: -70px;
 }
-.deal-img{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    width: 367px;
-    height: 423px;
-}
-.btn-2{
-    width: 367px;
-    height: 206px;
-    color: white;
-    background-image: url('../assets/deal-bloom.png');
-    border-radius: 14px;
-    border: none;
-}
-.color-2{
-    color: white;
-}
-.btn-3{
-    width: 367px;
-    height: 206px;
-    color: white;
-    background-image: url('../assets/deal-ana.png');
-    border-radius: 14px;
-    margin-top: -210px;
-    border: none;
-}
-.btn-2 p{
-    font-family: "noto serif",serif;
-    font-weight: 20px;
-}
-.btn-3 p{
-    font-family: "noto serif",serif;
-    font-weight: 20px;
-}
