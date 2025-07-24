@@ -168,6 +168,7 @@ div ul li{
     text-align: center;
     padding-left: 100px;
     margin-top: -70px;
+    color: rgba(0, 0, 0, 0.5);
 }
 .promo-wrapper {
   display: flex;
