@@ -58,6 +58,9 @@ nav li a{
     width: 570px;
     height: 108px;
     margin-top: -80px;
+    font-size: 22px;
+    font-family: "Inter",serif;
+    font-weight: normal;
 }
 .ban-text{
     padding-left: -10px;
@@ -117,6 +120,7 @@ main{
 .card-item{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 20px;
 }
 .lover{
     width: 1140px;
@@ -281,7 +285,7 @@ div ul li{
     padding-left: 300px;
 }
 .btn2{
-    width: 644px;
+    width: 144px;
     height: 50px;
     border: none;
     color: rgba(0, 0, 0, 0.5);
@@ -289,7 +293,7 @@ div ul li{
 }
 .btn3{
     width: 186px;
-    height: 50px;
+    height: 52px;
     background-color: #E95A08;
     color: white;
      border: none;
@@ -302,11 +306,12 @@ div ul li{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .footer-left {
-  flex: 1;
-  min-width: 200px;
+  max-width: 359px;
+  height: 179px;
 }
 
 .footer-logo {
@@ -315,9 +320,10 @@ div ul li{
 }
 
 .footer-desc {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family:"Inter",serif ;
+  font-weight: normal;
 }
 
 .footer-links {
@@ -326,19 +332,26 @@ div ul li{
   flex: 2;
   justify-content: space-around;
   min-width: 250px;
+  height: 248px;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 30px;
+  width: 85px;
+  height: 248px;
 }
-
+.col2{
+    width: 128px;
+    height: 248px;
+}
 .footer-column a {
   text-decoration: none;
-  color: #333;
+  color:rgba(107, 114, 128, 1);
   font-size: 14px;
-  transition: color 0.3s;
+  font-family: "regular",serif;
+  font-weight: normal;
 }
 
 .footer-column a:hover {
