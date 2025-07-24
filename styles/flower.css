@@ -13,6 +13,7 @@ body{
 header{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 nav{
     max-width: 1140px;
@@ -110,6 +111,7 @@ main{
     height: 50px;
     background-color: #E95A08;
     color: white;
+    border: none;
 }
 .card-item{
     display: grid;
@@ -165,4 +167,194 @@ div ul li{
     text-align: center;
     padding-left: 100px;
     margin-top: -70px;
+}
+.promo-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.promo-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.promo-box {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1{
+    background-image: url('../assets/deal-bloom.png');
+}
+.box2{
+    background-image: url('../assets/deal-ana.png');
+}
+.box3{
+    background-image: url('../assets/deal-zabo.png');
+}
+.promo-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.promo-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.promo-right {
+  flex: 2;
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-content-large {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.promo-title-large {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.promo-btn {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.promo-btn:hover {
+  background-color: #d4aa00;
+}
+.promo-content a{
+    color: white;
+}
+.promo-content-large a{
+    color: white;
+}
+.bunch{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1440px;
+    height: 533px;
+    background-image: url('../assets/news-letter-bg.png');
+}
+.brunch p{
+    justify-content: center;
+    padding-top: 200px;
+    text-align: center;
+    font-family: "noto serif",serif;
+    font-size: 50px;
+    color: white;
+}
+.mbtn{
+    display: flex;
+    width: 830px;
+    height: 50px;
+    padding-left: 300px;
+}
+.btn2{
+    width: 644px;
+    height: 50px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 550px;
+}
+.btn3{
+    width: 186px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+     border: none;
+}
+.footer-container {
+    width: 1140px;
+    padding-top: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.footer-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  flex: 2;
+  justify-content: space-around;
+  min-width: 250px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #f97316;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.footer-social a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #f97316;
 }
