@@ -10,6 +10,7 @@ body{
     max-width: 100%;
     margin: 0 auto;
     background-color:#F5F8FF;
+    overflow-x: hidden;
 }
 header{
     max-width: 1140px;
