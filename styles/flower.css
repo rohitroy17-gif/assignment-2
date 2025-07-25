@@ -461,6 +461,7 @@ main{
         margin-right: 600px;
         margin-top: 20px;
         width: 100%;
+        height:
     }
     .badge{
         visibility: hidden;
@@ -490,19 +491,22 @@ main{
     .flower-lover ul li p{
         width: 500px;
     }
-    .deals-h{
+     .deals-h{
         width: 100%;
         height: 117px;
         margin-top: 600px;
+        margin-left: 28px;
     }
     .deals-head{
+        width: 100%;
+        width: 336px;
         font-size: 34px;
-        padding-left: 140px;
-        width: 100%;
+        margin-left: 80px;
     }
+
     .deals-text{
+        width: 336px;
         font-size: 14px;
-        width: 100%;
         height: 68px;
         padding-top: 30px;
     }
@@ -510,7 +514,9 @@ main{
         margin-top: 70px;
         width: 361px;
         height: 581px;
-        padding-left: 80px;
+        padding-left: 70px;
+        margin-left: 28px;
+
     }
     .promo-box {
     height: 180px;
@@ -529,6 +535,7 @@ main{
     .bunch{
         margin-top: 150px;
         width: 578px;
+        
     }
     .brunch p{
         font-size: 20px;
