@@ -9,6 +9,7 @@
 body{
     max-width: 100%;
     margin: 0 auto;
+    background-color:#F5F8FF;
 }
 header{
     max-width: 1140px;
@@ -92,6 +93,9 @@ main{
     width: 888px;
     height: 54px;
     text-align: center;
+    font-size: 22px;
+    font-family: "inter",serif;
+    font-weight: normal;
     padding-left: 100px;
     margin-top: -70px;
     color: rgba(0, 0, 0, 0.5);
@@ -118,6 +122,7 @@ main{
     border: none;
 }
 .card-item{
+    padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
@@ -125,7 +130,7 @@ main{
 .lover{
     width: 1140px;
     height: 597px;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 .badge{
     max-width: 286px;
@@ -136,17 +141,19 @@ main{
     font-family: "noto serif",serif;
     padding-left: 12px;
 }
-div ul li{
+.flower-lover ul li{
     font-size: 22px;
     font-family: "inter",serif;
     font-weight: normal;
-    width: 540px;
+    color:rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    width: 500px;
     height: 108px;
 }
 .flower-lover{
     width: 540px;
     height: 521px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .plant-flower-lover{
      width: 1140px;
@@ -154,7 +161,7 @@ div ul li{
     display: flex;
 }
 .badge-item{
-    padding-left: 360px;
+    padding-left: 350px;
     margin-top: -730px;
 }
 .deals-h{
@@ -328,9 +335,9 @@ div ul li{
 
 .footer-links {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   flex: 2;
-  justify-content: space-around;
+  justify-content: center;
   min-width: 250px;
   height: 248px;
 }
@@ -372,4 +379,172 @@ div ul li{
 
 .footer-social a:hover {
   color: #f97316;
+}
+@media screen and (max-width:578px) {
+    body{
+       width: 100%;
+       margin: 0 auto;
+       overflow-x: hidden;
+    } 
+    header{
+        width:100%;
+        margin: 0 auto;
+    }
+    footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        max-width: 100%;
+        justify-content: space-between;
+        display: flex;
+        height: 71px;
+    }
+    .wp-img{
+        margin-left: 10px;
+    }
+    .home,.list-item{
+       visibility: hidden;
+    }
+    nav ul li{
+       padding-right: 10px;
+       padding-top: 20px;
+    }
+    .ban-item{
+       flex-direction: column-reverse;
+    }
+    img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    }
+    .ban-text{
+        margin-top: -130px;
+        padding-left: 10px;
+    }
+    .ban-head{
+        font-size: 44px;
+    }
+    .ban-p{
+        width: 360px;
+        height: 68px;
+        margin-top: -130px;
+    }
+    .plant-h{
+        width: 393px;
+        height: 117px;
+        margin-top: 100px;
+    }
+    .plants-head{
+        font-size: 34px;
+        padding-left: 170px;
+    }
+    .plant-text{
+         width: 336px;
+        height: 68px;
+        font-size: 14px;
+    }
+    .card-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 600px;
+        margin-top: 20px;
+    }
+    .badge{
+        visibility: hidden;
+    }
+    .lover{
+        margin-top: 1000px;
+        margin-left: 10px;
+    }
+    .plant-flower-lover{
+        flex-direction: column;
+    }
+    .flower-lover{
+        width: 351px;
+        height: 234px;
+        margin-left: -50px;
+    }
+    .p-3{
+        font-size: 24px;
+    }
+    .flower-lover ul li{
+        font-size: 20px;
+        font-weight: normal;
+        text-align: justify;
+    }
+    .flower-lover ul li p{
+        width: 500px;
+    }
+    .deals-h{
+        width: 393px;
+        height: 117px;
+        margin-top: 600px;
+    }
+    .deals-head{
+        font-size: 34px;
+        padding-left: 140px;
+    }
+    .deals-text{
+        font-size: 14px;
+        width: 336px;
+        height: 68px;
+        padding-top: 30px;
+    }
+    .promo-wrapper{
+        margin-top: 70px;
+        width: 361px;
+        height: 581px;
+        padding-left: 80px;
+    }
+    .promo-box {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .box3{
+        width: 361px;
+        height: 172px;
+    }
+    .bunch{
+        margin-top: 150px;
+        width: 578px;
+    }
+    .brunch p{
+        font-size: 20px;
+        margin-right: 30px;
+        
+    }
+    .mbtn{
+        width: 321px;
+        height: 50px;
+        margin-left: -180px;
+    }
+    .btn2{
+    padding-right: 100px; 
+    }
+    .footer-container{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 60px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .footer-links{
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
