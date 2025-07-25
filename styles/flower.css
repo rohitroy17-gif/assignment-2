@@ -384,19 +384,22 @@ main{
 @media screen and (max-width:578px) {
     body{
        max-width:100%;
-       margin:0 0 0 0;
+       margin:0 auto;
     } 
     header{
         width:100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     footer{
         width: 100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     main{
         width: 100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     nav{
         max-width: 100%;
@@ -412,6 +415,8 @@ main{
     nav ul li{
        padding-right: 30px;
        padding-top: 20px;
+       padding-left: -50px;
+       font-size: 15px;
        
     }
     .ban-item{
@@ -468,7 +473,7 @@ main{
     .lover{
         width: 100%;
         margin-top: 1100px;
-        margin-left: 10px;
+        margin-left: 28px;
     }
     .plant-flower-lover{
         width: 100%;
@@ -477,7 +482,7 @@ main{
     .flower-lover{
         width: 100%;
         height: 234px;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .p-3{
         font-size: 24px;
@@ -494,11 +499,12 @@ main{
         width: 100%;
         height: 117px;
         margin-top: 600px;
+        margin-left: 28px;
     }
     .deals-head{
         width: 100%;
         font-size: 34px;
-        margin-left: 80px;
+        margin-left: 60px;
     }
     .deals-text{
         width: 100%;
@@ -512,6 +518,7 @@ main{
         width: 361px;
         height: 581px;
         padding-left: 80px;
+        margin-left: 28px;
     }
     .promo-box {
     height: 180px;
@@ -530,7 +537,7 @@ main{
     .bunch{
         margin-top: 150px;
         width: 578px;
-        
+        margin-left: 45px;
     }
     .brunch p{
         font-size: 20px;
@@ -549,7 +556,7 @@ main{
     .footer-container{
         width: 100%;
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 100px;
         padding-top: 60px;
         margin: 0 auto;
         display: flex;
