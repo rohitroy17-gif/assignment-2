@@ -383,9 +383,8 @@ main{
 }
 @media screen and (max-width:578px) {
     body{
-       width: 100%;
+       max-width:100%;
        margin: 0 auto;
-       overflow-x: hidden;
     } 
     header{
         width:100%;
@@ -401,38 +400,43 @@ main{
     }
     nav{
         max-width: 100%;
-        justify-content: space-between;
         display: flex;
         height: 71px;
     }
     .wp-img{
-        margin-left: 10px;
+        padding-left: 10px;
     }
     .home,.list-item{
        visibility: hidden;
     }
     nav ul li{
-       padding-right: 10px;
+       padding-right: 40px;
        padding-top: 20px;
     }
     .ban-item{
        flex-direction: column-reverse;
+       width: 100%;
     }
-    img {
+    /*img {
     overflow-clip-margin: content-box;
     overflow: clip;
-    }
+    }*/
     .ban-text{
         margin-top: -130px;
         padding-left: 10px;
+        width: 100%;
     }
     .ban-head{
+        width: 100%;
         font-size: 44px;
     }
     .ban-p{
-        width: 360px;
+        width: 100%;
         height: 68px;
         margin-top: -130px;
+    }
+    .plants{
+        width: 100%;
     }
     .plant-h{
         width: 393px;
@@ -448,7 +452,8 @@ main{
         height: 68px;
         font-size: 14px;
     }
-    .card-item{
+    .card-item{   
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-right: 600px;
@@ -458,14 +463,16 @@ main{
         visibility: hidden;
     }
     .lover{
-        margin-top: 1000px;
+        width: 100%;
+        margin-top: 1100px;
         margin-left: 10px;
     }
     .plant-flower-lover{
+        width: 100%;
         flex-direction: column;
     }
     .flower-lover{
-        width: 351px;
+        width: 100%;
         height: 234px;
         margin-left: -50px;
     }
@@ -481,15 +488,17 @@ main{
         width: 500px;
     }
     .deals-h{
-        width: 393px;
+        width: 100%;
         height: 117px;
         margin-top: 600px;
     }
     .deals-head{
+        width: 100%;
         font-size: 34px;
-        padding-left: 140px;
+        margin-left: 80px;
     }
     .deals-text{
+        width: 100%;
         font-size: 14px;
         width: 336px;
         height: 68px;
@@ -518,6 +527,7 @@ main{
     .bunch{
         margin-top: 150px;
         width: 578px;
+        
     }
     .brunch p{
         font-size: 20px;
@@ -532,6 +542,7 @@ main{
     .btn2{
     padding-right: 100px; 
     }
+    
     .footer-container{
         width: 100%;
         flex-direction: column;
