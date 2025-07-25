@@ -383,105 +383,107 @@ main{
 }
 @media screen and (max-width:578px) {
     body{
-       max-width: 100%;
-       margin: 0 auto;
+       max-width:100%;
+       margin:0 auto;
     } 
     header{
-        max-width: 100%;
+        width:100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     footer{
-       max-width: 100%;
+        width: 100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     main{
-       max-width: 100%;
+        width: 100%;
         margin: 0 auto;
+        margin-left: 45px;
     }
     nav{
-        margin-top: 30px;
         max-width: 100%;
-        justify-content: space-between;
         display: flex;
         height: 71px;
+        margin-top: 30px;
     }
     .wp-img{
-        margin-left: 10px;
+        padding-left: 10px;
     }
     .home,.list-item{
        visibility: hidden;
     }
     nav ul li{
-       padding-right: 20px;
-       padding-top: 20px;
+       padding-right: 30px;
+       padding-top: 10px;
+       padding-left: -50px;
+       font-size: 15px;
+       
     }
     .ban-item{
        flex-direction: column-reverse;
-       max-width: 100%;
+       width: 100%;
     }
-    img {
+    
+    /*img {
     overflow-clip-margin: content-box;
     overflow: clip;
-    }
+    }*/
     .ban-text{
         margin-top: -130px;
         padding-left: 10px;
-        max-width: 100%;
+        width: 100%;
     }
     .ban-head{
+        width: 100%;
         font-size: 44px;
-        max-width: 100%;
     }
     .ban-p{
-        width: 360px;
+        width: 100%;
         height: 68px;
         margin-top: -130px;
-        max-width: 100%;
     }
     .plants{
-        max-width: 100%;
+        width: 100%;
     }
     .plant-h{
         width: 393px;
         height: 117px;
         margin-top: 100px;
-        max-width: 100%;
     }
     .plants-head{
         font-size: 34px;
         padding-left: 170px;
-        max-width: 100%;
     }
     .plant-text{
-        
+         width: 336px;
         height: 68px;
         font-size: 14px;
-        max-width: 100%;
     }
     .card-item{   
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-right: 600px;
         margin-top: 20px;
-        max-width: 100%;
+        padding-left: 15px;
     }
     .badge{
         visibility: hidden;
     }
     .lover{
+        width: 100%;
         margin-top: 1100px;
-        margin-left: 10px;
-        max-width: 100%;
+        margin-left: 28px;
     }
     .plant-flower-lover{
+        width: 100%;
         flex-direction: column;
-        max-width: 100%;
     }
     .flower-lover{
-        width: 351px;
+        width: 100%;
         height: 234px;
-        margin-left: -50px;
-        max-width: 100%;
+        margin-left: -40px;
     }
     .p-3{
         font-size: 24px;
@@ -493,21 +495,22 @@ main{
     }
     .flower-lover ul li p{
         width: 500px;
-        max-width: 100%;
     }
     .deals-h{
-        max-width: 100%;
+        width: 100%;
         height: 117px;
         margin-top: 600px;
+        margin-left: 28px;
     }
     .deals-head{
+        width: 100%;
         font-size: 34px;
-        padding-left: 140px;
-        max-width: 100%;
+        margin-left: 60px;
     }
     .deals-text{
+        width: 100%;
         font-size: 14px;
-        max-width: 100%;
+        width: 336px;
         height: 68px;
         padding-top: 30px;
     }
@@ -516,7 +519,7 @@ main{
         width: 361px;
         height: 581px;
         padding-left: 80px;
-        max-width: 100%;
+        margin-left: 28px;
     }
     .promo-box {
     height: 180px;
@@ -527,7 +530,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
 }
     .box3{
         width: 361px;
@@ -536,6 +538,7 @@ main{
     .bunch{
         margin-top: 150px;
         width: 578px;
+        margin-left: 45px;
     }
     .brunch p{
         font-size: 20px;
@@ -550,10 +553,11 @@ main{
     .btn2{
     padding-right: 100px; 
     }
+    
     .footer-container{
-        max-width: 100%;
+        width: 100%;
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 100px;
         padding-top: 60px;
         margin: 0 auto;
         display: flex;
@@ -565,7 +569,6 @@ main{
     .footer-links{
         flex-direction: column;
         justify-content: space-around;
-        max-width: 100%;
     }
 }
 
